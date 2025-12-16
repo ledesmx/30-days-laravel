@@ -2,5 +2,5 @@
     <x-slot:heading>
         Contact
     </x-slot:heading>
-    <h1>Home page</h1>
+    <h1>{{ $greeting }}Home page {{ $name }}</h1>
 </x-layout>
